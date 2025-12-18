@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Lancer tous les services en arrière-plan
-docker compose up
+docker compose up -d
 
 echo "🚀 Lancement terminé !"
 
