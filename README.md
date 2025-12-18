@@ -60,7 +60,7 @@ Chaque étape contient :
 
 ### **Étape 3 : Docker Compose**
 - Regrouper les 3 conteneurs dans un seul fichier `docker-compose.yml`  
-- Lancer l’architecture complète avec `docker compose up -d`  
+- Lancer l’architecture complète avec `docker compose up`  
 - Maintenir les mêmes fonctionnalités que l’étape 2  
 - **Objectif pédagogique** : apprendre à orchestrer plusieurs conteneurs avec Docker Compose et simplifier le déploiement
 
@@ -71,8 +71,10 @@ Chaque étape contient :
 ### Étapes 1 et 2 (sans Docker Compose) :
 
 cd etapeX
+
 ./launch.sh
 
 ### Étapes 3
 cd etape3
-docker compose up -d
+
+docker compose up
